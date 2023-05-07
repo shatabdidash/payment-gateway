@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Poppins&family=Reem+Kufi&family=Uncial+Antiqua&display=swap');
+
+body{
+    background: linear-gradient(#c3ddcc, #0dc362);
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    color: rgb(8, 140, 24);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+    font-size: 1.1em;
+}
+.brand{
+    color: white;
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 2em;
+}
+.brand img{
+    height: 2em;
+    width: 9em;
+}
+.brand:hover{
+    color: rgb(2, 255, 11);
+    transition: 0.2s ease;
+}
+.navbar-toggler{
+    color: rgb(158, 232, 139);
+    background-color: rgb(158, 232, 139);
+    border: none;
+    border-radius: 8px;
+}
+.carousel-item{
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.about{
+    margin-top: 1.5em;
+    font-size: 2em;
+    font-family: 'Reem Kufi', sans-serif;
+    color: rgb(14, 135, 22);
+    font-weight: 700;
+}
+.card-text{
+    color:rgb(255, 255, 255);
+    font-size: 1.1em;
+    font-weight: 400;
+    
+}
+.card-body{
+    background-color: #58e097;
+    text-align: justify;
+}
+.readmore{
+    text-decoration: none;
+    color: white;
+}
+.readmore:hover{
+    color: white;
+}
+.donate-text{
+    color: #03612f;
+    text-align: justify;
+}
+.donateBtn{
+    align-items: center;
+}
+.contactBox{
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 2em;
+    background-color: white;
+    padding: 1em;
+}
+.footerBox{
+    text-align: center;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    padding: 1em;
+    background-color: #ffffff;
+}
+.author{
+    text-decoration: none;
+    color: #088040;
+    font-weight: 700;
+}
+.author:hover{
+    color: #0fb35b;
+    transition: 0.2s ease;
+}
+i{
+    font-size: 1.8em;
+    padding: 7px;
+    color: #03612f;
+}
+@media screen and (max-width: 410px) {
+    .brand img{
+        height: 2em;
+        width: 7em;
+    }
+  }
